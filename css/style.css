@@ -1,0 +1,94 @@
+body {
+  position: relative;
+  background-color: #191411;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+nav a {
+  color: white;
+  font-size: 22px;
+}
+
+.hero {
+  position: relative;
+}
+.hero .hero__contact {
+  width: 535px;
+}
+.hero .abs {
+  background-color: #D3320F;
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  padding: 12px 16px;
+}
+.hero .name__of__contact {
+  font-size: 100px;
+  color: white;
+}
+.hero .about__as {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.hero .knopka {
+  background-color: orange;
+  width: 115px;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+.hero__img {
+  position: absolute;
+  top: -100px;
+  right: -290px;
+}
+
+.fons {
+  position: absolute;
+  left: -40px;
+  right: -40px;
+}
+
+.fons__2 {
+  position: absolute;
+  right: 0;
+}
+
+.container {
+  font-family: Barlow Semi Condensed;
+}
+
+.header__logo {
+  background-color: #191411;
+}
+.header__logo button {
+  background-color: #191411;
+}
